@@ -23,7 +23,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.txt_subheading{
+.txt_subheading, #txt_pagetitle{
     color: rgb(135, 187, 100);
 }
 
