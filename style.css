@@ -31,3 +31,8 @@ a{
 #header h1, #header p{
     padding-left: 10px;
 }
+
+img{
+    width: auto;
+    height: 300px;
+}
