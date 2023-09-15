@@ -8,28 +8,52 @@ body{
     color: rgba(230, 230, 230, 0.281);
 }
 
+.titlebox{
+    margin: 25px auto;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+}
+
 p, li, h1, h2, h3 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(219, 219, 219, 0.767);
 }
 
+.navbar{
+
+}
+
+
+.navbaritem{
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
 a{
     color: rgba(54,121,9,1);
 }
 
+a:hover{
+    color: rgb(53, 224, 82);
+}
+
 #txt_pagetitle{
-    font-size: 28px;
+    font-size: 45px;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .txt_subheading, #txt_pagetitle{
-    color: rgb(135, 187, 100);
+    color: rgb(70, 153, 57);
 }
 
 #header {
     background: linear-gradient(90deg, rgba(31,111,67,1) 0%, rgba(54,121,9,1) 35%, rgba(47,129,77,1) 100%);
 }
+
 
 #header p{
     padding: 10px;
