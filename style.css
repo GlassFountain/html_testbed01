@@ -4,8 +4,16 @@ body{
     background-color: rgb(32, 32, 32);
 }
 
+/* Debug Style */
 * {
     /* border: 1px solid red; */
+}
+
+/* Navbar Home */
+
+.mainlist{
+    margin: auto;
+    width: 80%;
 }
 
 .recipe_block{
@@ -39,6 +47,9 @@ ul {
     margin: 25px auto;
     background-color: rgb(18, 18, 18);
     padding: 10px;
+    width: 60%;
+    margin: 0px auto 0px;
+    box-sizing: border-box
 }
 
 p, li, h1, h2, h3 {
@@ -48,18 +59,21 @@ p, li, h1, h2, h3 {
 }
 
 .navbaritem{
-    display: inline-block;
     padding: 10px;
+    font-size: 45px;
     margin: 20px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
 }
 
 a{
-    color: rgba(54,121,9,1);
+    color: rgb(70, 153, 57);
 }
 
 a:hover{
-    color: rgb(53, 224, 82);
+    color: rgb(76, 128, 52);
 }
 
 #txt_pagetitle{
@@ -80,10 +94,15 @@ a:hover{
 
 #header {
     background: linear-gradient(90deg, rgba(31,111,67,1) 0%, rgba(54,121,9,1) 35%, rgba(47,129,77,1) 100%);
+    text-align: center;
+    width: 60%;
+    margin: auto;
 }
 
 #header p{
     padding: 10px;
+    font-size: 30px;
+    margin: 0px;
 }
 
 .img_headerimage{
