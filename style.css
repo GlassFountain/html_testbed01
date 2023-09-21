@@ -4,6 +4,33 @@ body{
     background-color: rgb(32, 32, 32);
 }
 
+* {
+    /* border: 1px solid red; */
+}
+
+.recipe_block{
+    display: block;
+    margin: auto;
+    width: 35%;
+    border: 1px solid rgb(3, 3, 3);
+    background-color: rgb(19, 19, 19);
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.homebutton{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
 .txt_optional {
     color: rgba(230, 230, 230, 0.281);
 }
@@ -43,18 +70,24 @@ a:hover{
 
 .txt_subheading, #txt_pagetitle{
     color: rgb(70, 153, 57);
+    text-align: center;
+    font-size: 45px;
+}
+
+.txt_subheading{
+    margin: 10px 45px -5px 45px
 }
 
 #header {
     background: linear-gradient(90deg, rgba(31,111,67,1) 0%, rgba(54,121,9,1) 35%, rgba(47,129,77,1) 100%);
 }
 
-
 #header p{
     padding: 10px;
 }
 
-img{
-    width: auto;
-    height: 300px;
+.img_headerimage{
+    height: 500px;
+    margin: auto;
+    display: flex;
 }
